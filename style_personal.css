@@ -1,0 +1,20 @@
+@charset "utf-8";
+main {
+    height: auto;
+    background-color: #D3C4F2;
+}
+nav {
+    height: auto;
+    background-color: #5B38A6;
+    color: #FEF7FA;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    height: 20px;
+}
+nav ul {
+    height: 40px;
+}

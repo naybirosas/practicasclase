@@ -1,0 +1,44 @@
+@charset "utf-8";
+nav {
+    height: 80px;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: #FEF7FA;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+nav ul {
+    height: 40px;
+    }
+a:link{
+    color:#F5E5C0;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:visited{
+    color:#CD3ADA;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:active{
+    color:#ED756E;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color:#EC9344;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#lista-1 {
+}
+#lista-2 {
+}
+#lista-3 {
+}
+#lista-4 {
+}
+#lista-5 {
+}

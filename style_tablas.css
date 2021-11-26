@@ -1,0 +1,47 @@
+@charset "utf-8";
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    height: 20px;
+    color: #FEF7FA;
+    }
+nav ul {
+    height: 40px;
+    }
+nav {
+    height: 77px;
+    }
+a:link{
+    color:#F5E5C0;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:visited{
+    color:#CD3ADA;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:active{
+    color:#ED756E;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color:#EC9344;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#tabla-3 {
+}
+#tabla-2 {
+}
+#tabla-4 {
+}
+#tabla-5 {
+}
+#tabla-6 {
+}
+#tabla-7 {
+}

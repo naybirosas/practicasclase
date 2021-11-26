@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Listas en html</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+         } 
+        dt{
+            font-weight: bold;
+            font-size: 18px;
+            color:darkorchid;
+        }
+        h1,h2{ 
+            font-size: 80px;
+            color:purple;
+        }
+        h2{ 
+            font-size: 30px;
+        }
+        header,nav,main,footer{
+    width: 871px;
+    /*height: 100px;*/
+    margin: 0px auto;
+    background-color: darkgray;
+    padding: 50px            
+        }
+        header{
+    text-align: center;
+    height: 79px;
+        }
+        nav{
+    background-color: darkslategray;
+            }
+        main{
+            background-color:antiquewhite;
+            height: auto;
+            
+        }
+        footer{
+            background-color: cadetblue;
+            height: 60px;
+            font-size: 20px;
+            color: aliceblue;
+            text-align: center;
+        }
+        section {
+            width: 760px;
+            height: auto;
+            background-color:#FFF4E8;
+            margin: 20px auto;
+            padding: 20px 20px;
+        }
+        ul, ol{
+    margin: 20px;
+        }
+        dl{
+            margin:20px;
+        }
+        dt{
+            margin: 10px;
+        }
+        dd{
+            margin:20px 50px;
+        }
+    </style>
+    <link href="../css/style_primerapagina.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>LISTAS EN HTML</h1>
+	</header>
+	<nav>
+    <ul>
+            <li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="lista.html">Listas</a></li>
+            <li><a href="enlaces.html">Enlaces</a></li>
+            <li><a href="imagenes.html">Imágenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="animate.html">Animación</a></li>
+            <li><a href="Formularios.html">Formularios</a></li>
+            <li><a href="flexbox.html">Flexbox</a></li>
+        </ul>
+        <ul>
+            <li><a href="#lista-1">Lista desordenada</a></li>
+            <li><a href="#lista-2">Lista ordenada</a></li>
+            <li><a href="#lista-3">Lista mixta</a></li>
+            <li><a href="#lista-4">Lista de descripcion</a></li>
+            <li><a href="#lista-5">Lista con viñetas</a></li>
+        </ul>
+    </nav>
+<main>
+        
+	  <section id="lista-1">
+		  <h2>Lista Desordenada o de Viñetas</h2>
+	    <ul>
+		  	<li>Mexico</li>
+			<li>España</li>
+			<li>Argentina</li>
+			<li>Guatemala</li>
+		  </ul>
+</section>	
+		<section id="lista-2">
+			<h2>Listas Ordenadas o con Viñeta Numerada</h2>
+			<ol>
+				<li>Grecia</li>
+				<li>Bolivia</li>
+				<li>Canada</li>
+				<li>Australia</li>
+				<li>Mexico</li>
+			</ol>
+		</section>
+	  <section id="lista-3">
+		<h2>Lista Mixta</h2>
+		<ul>
+		  <li>Mexico
+				<ol>
+			  		<li>Puebla</li>
+			  		<li>Veracruz</li>
+			  		<li>Baja California</li>
+			  		<li>Oaxaca</li>
+			  	</ol>
+		  </li>
+		  <li>España		  
+		    	<ol>
+					  <li>Madrid</li>
+					  <li>Sevilla</li>
+					  <li>Barcelona</li>
+					  <li>Bilbao</li>
+	        	</ol>
+			</li>
+	      <li>Argentina
+		     <ol>
+		      <li>Buenos aires</li>
+		      <li>Rosario</li>
+		      <li>Salta</li>
+		      <li>Santa Fe</li>
+	        </ol>
+			</li>
+        <li> Guatemala
+		 <ol>
+			  <li>Peten</li>
+			  <li>Villa Nueva</li>
+			  <li>Mixco</li>
+			  <li>Quezaltena</li>
+		 </ol>
+        </li>
+	    </ul>
+		</section>
+        <section id="lista-4"> 
+            <h2>Lista de Descripcion</h2>
+            <dl>
+                <dt style="font-style:italic">Hosting</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe est ullam natus cumque provident nisi tenetur. Praesentium, itaque, quas.
+                </dd>
+                <dt style="font-weight: normal">Dominio</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sequi ipsum consectetur, est eligendi similique consequatur asperiores qui repellendus, suscipit et eos quo, voluptates? Suscipit?
+                </dd>
+                <dt>Sitio Web</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore impedit blanditiis neque quae, assumenda a facere modi dolorum ut necessitatibus ratione eveniet perferendis delectus autem ea vel architecto quod accusantium, illum reiciendis eius consequuntur libero mollitia nostrum! Harum, eligendi, quae?
+                </dd>
+                <dt>Sistema Web</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos modi necessitatibus eveniet laborum repellat soluta in, animi explicabo. Modi, cumque.</dd>
+                <dt>Lorem ipsum dolor sit.</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui itaque omnis provident vero nobis perferendis velit veritatis? Quisquam eveniet aspernatur, maxime ducimus molestias asperiores? Quis dolore quia laboriosam maxime, sapiente molestias molestiae! Voluptate optio, distinctio.
+                </dd>
+               </dl>
+             </section>
+        <section id="lista-5">
+            <h2>Lista de viñeta con imagen</h2>
+            <ul style="list-style-image: url('../css/flor.png')">
+                 <li>Maria Gomez</li>
+                 <li>Juan Hernandez</li>
+                 <li>Guadalupe Guerrero</li>
+                 <li>Daniel Osorio</li>
+             </ul>
+        </section>
+    </main>
+    <footer>
+    <h4>Elaborado por Karla Naybi Rosas Barrera</h4>
+    </footer>
+</body>
+</html>
