@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+<style type="text/css">
+*{margin: 0;
+padding: 0;
+}
+dt{font-weight: bold;
+font-size: 24px
+color:#FFC529;
+}
+h1.h2 {font-size: 48px;
+color:#272d2f; }
+h2{font-size:36;}
+header, nav,main,footer{width: 960px;
+height: 100px;
+background-color:#FFC529;
+padding: 50px;
+margin: 0 auto;
+}
+header{text-align: center}
+footer{
+    text-align: center;
+}
+nav{background-color:#272d2f;
+height: 20px;
+padding: 10px 50px;
+}
+main {background-color: #F2F2F2;
+height: auto}
+footer{background-color: #fe724c;
+height: 60px;
+}
+section{width: 760px;
+text-align: center;
+height: auto;
+background-color: #fe724c;
+margin: 20px auto;
+padding: 20px 20px;
+}
+dl{margin: 20px;
+}
+dt{margin: 10px
+}
+dd{margin: 20px}
+table{
+background-color:#F2F2F2;
+color:#FFC529;
+}
+#t01, #t01 th, #t01 td, #t02, td
+{
+border-collapse: collapse;
+}
+#t01, #t01 th, #t01 td, {border:1px solid #FE724C;
+padding: 5px;}
+#t01 th{background-color:#FE724C ;
+color:#2A2642;
+text-align: left}
+#t02, #t02 th, #t2 td { border:1px solid #272D2f;
+color:#2A2642;
+border-collapse: separate;
+border-spacing: 10px;}
+#t02 th{background-color: #FFC427;
+}
+#t03 tr:nth-child(even){
+color:#ffc529;
+background-color: #2A2642;
+}
+#t03 tr:nth-child(odd){color: #2A2642; background-color: #ffc529;
+}
+#t03 th{background-color: #FE724C;
+}
+#t04 td:nth-child(ever){
+color:#2A2642;
+background-color: #FE724C;
+}
+#t04 td:nth-child(odd){
+background-color: #FE724C;
+color: #2A2642;
+}
+#t05{width: 640px;
+}
+#t05{height: 50px;
+}
+#t05 td{height: 30px;
+padding-left: 10px;
+vertical-align: bottom;
+}
+#t05 tr:hover{background-color: #ffc529;
+color:#292642;
+}
+#t05{
+background-color: #F2F2F2;
+color: #FFC529;
+}
+#t06{
+width: 100%}
+#t06 th, #t06 td{ text-align: center;
+border: 1px solid #FFC529;
+border-collapse: collapse;
+height: 25px;
+}
+#t06 th, #t06 td{border-collapse: collapse}
+#tabla-1 {
+}
+</style>
+<link href="../css/style_tablas.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html</h1>
+    </header>
+<nav>
+        <ul>
+            <li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="lista.html">Listas</a></li>
+            <li><a href="enlaces.html">Enlaces</a></li>
+            <li><a href="imagenes.html">Imágenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="animate.html">Animación</a></li>
+            <li><a href="Formularios.html">Formularios</a></li>
+            <li><a href="flexbox.html">Flexbox</a></li>
+        </ul>
+    <ul>
+        <li><a href="#tabla-1">T. simple</a></li>
+        <li><a href="#tabla-2">T. bordes colapsados</a></li>
+        <li><a href="#tabla-3">T.  más de una columna</a> </li>
+        <li><a href="#tabla-4">T. rayas horizonntales</a></li>
+        <li><a href="#tabla-5">T. rayas verticales</a></li>
+        <li><a href="#tabla-6">T. Resaltado Flotante</a></li>
+      <li><a href="#tabla-7">T. responsive</a></li>
+    </ul>
+</nav>
+<main>
+<section id="tabla-1">
+<h2>Tabla simple</h2>
+<table border="1">
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Dirección</th>
+<th> telefono</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fernanda Gonzalez</td>
+<td>calle diamante #23</td>
+<td>2215748324</td>
+</tr>
+<tr>
+<td>Mariana Jimenez</td>
+<td>calle safiro #66</td>
+<td>2245564828</td>
+</tr>
+<tr>
+<td>Rodrigo Perez</td>
+<td>calle rubi #75</td>
+<td>2226657654</td>
+</tr>
+<tr>
+<td>Ricardo Ramirez</td>
+<td>calle esmeralda #57</td>
+<td>2225655887</td>
+</tr>
+</tbody>
+</table></section>
+<section id="tabla-2">
+    <h2>Tabla con bordes colapsados</h2>
+  <table id="t01"
+border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Dirección</th>
+        <th> telefono</th>
+          </tr>
+        </thead>
+    <tbody>
+      <tr>
+        <td>Fernanda Gonzalez</td>
+        <td>calle diamante #23</td>
+        <td>2215748324</td>
+          </tr>
+      <tr>
+        <td>Mariana Jimenez</td>
+        <td>calle safiro #66</td>
+        <td>2245564828</td>
+          </tr>
+      <tr>
+        <td>Rodrigo Perez</td>
+        <td>calle rubi #75</td>
+        <td>2226657654</td></tr>
+    <tr>
+       <td>Ricardo Ramirez</td>
+        <td>calle esmeralda # 57</td>
+        <td>2225655887</td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+<section id="tabla-3">
+  <h2>Tabla que abarca mas de una columna</h2>
+  <table id="t02"
+border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Dirección</th>
+        <th colspan="2"> telefonos</th>
+    </tr>
+        </thead>
+    <tbody>
+      <tr>
+        <td>Fernanda Gonzalez</td>
+        <td>calle diamante #23</td>
+        <td>221574824</td>
+        <td> 222558853</td>
+        </tr>
+      <tr>
+        <td>Mariana Jimenez</td>
+        <td>calle safiro #66</td>
+        <td>224556828</td>
+  <td>222728252</td>
+        </tr>
+      <tr>
+        <td>Rodrigo Perez</td>
+        <td>calle rubi #75</td>
+        <td>222665765</td>
+        <td>222928228</td>
+        </tr>
+      <tr>
+        <td>Ricardo Ramirez</td>
+        <td>calle esmeralda #57</td>
+        <td>222565588</td>
+          <td>221225282</td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+<section id="tabla-4">
+  <h2>Tabla con rayas HORIZONTALES de diferente color</h2>
+  <table id="t03" border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Dirección</th>
+        <th> telefono</th>
+          </tr>
+        </thead>
+    <tbody>
+      <tr>
+        <td>Fernanda Gonzalez</td>
+        <td>calle diamante #23</td>
+        <td>2215748324</td>
+          </tr>
+      <tr>
+       <td>Mariana Jimenez</td>
+        <td>calle safiro #66</td>
+        <td>2245564828</td>
+          </tr>
+      <tr>
+       <td>Rodrigo Perez</td>
+        <td>calle rubi #75</td>
+        <td>2226657654</td>
+          </tr>
+      <tr>
+        <td>Ricardo Ramirez</td>
+        <td>calle esmeralda # 57</td>
+        <td>2225655887</td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+<section id="tabla-5">
+  <h2>Tabla con rayas VERTICALES de diferente color </h2>
+  <table id="t04" border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Dirección</th>
+        <th> telefono</th>
+          </tr>
+        </thead>
+    <tbody>
+      <tr>
+        <td>Mariana Jimenez</td>
+        <td>calle safiro #66</td>
+        <td>2245564828</td>
+          </tr>
+      <tr>
+        <td>Aylín Cielo</td>
+        <td>calle reinosa #56</td>
+        <td>2245667578</td>
+          </tr>
+      <tr>
+        <td>Rodrigo Perez</td>
+        <td>calle rubi #75</td>
+        <td>2226657654</td>
+          </tr>
+      <tr>
+        <td>Ricardo Ramirez</td>
+        <td>calle esmeralda # 57</td>
+        <td>2225655887</td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+<section id="tabla-6">
+  <h2>Tabla con resaltado flotante</h2>
+  <table id="t05" border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Dirección</th>
+        <th> telefono</th>
+  <th>ciudad</th>
+          </tr>
+        </thead>
+    <tbody>
+      <tr>
+        <td>Fernanda Gonzalez</td>
+        <td>calle diamante #23</td>
+        <td>2215748324</td>
+  <td>Puebla</td>
+          </tr>
+      <tr>
+        <td>Mariana Jimenez</td>
+        <td>calle safiro #66</td>
+        <td>2245564828</td>
+  <td>Puebla</td>
+          </tr>
+      <tr>
+        <td>Ricardo Ramirez</td>
+        <td>calle esmeralda # 57</td>
+        <td>2225655887</td>
+  <td>Puebla</td>
+          </tr>
+      <tr>
+        <td>Rodrigo Perez</td>
+        <td>calle rubi #75</td>
+        <td>2226657654</td>
+          <td>Puebla</td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+<section id="tabla-7" style="overflow-x:auto ">
+<h2>Tabla responsive</h2>
+<table>
+<thead>
+<tr>
+<th>Nombre</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+<th>puntos</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gerardo&nbsp;</td>
+<td>100</td>
+<td>70</td>
+<td>75</td>
+<td>100</td>
+<td>75</td>
+<td>15</td>
+<td>25</td>
+<td>30</td>
+<td>100</td>
+<td>67</td>
+<td>43</td>
+<td>54</td>
+<td>34</td>
+<td>32</td>
+<td>32</td>
+<td>100</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Maritza</td>
+<td>10</td>
+<td>45</td>
+<td>35</td>
+<td>12</td>
+<td>69</td>
+<td>100</td>
+<td>12</td>
+<td>34</td>
+<td>10</td>
+<td>100</td>
+<td>67</td>
+<td>43</td>
+<td>54</td>
+<td>34</td>
+<td>32</td>
+<td>32</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Gisela</td>
+<td>84</td>
+<td>56</td>
+<td>14</td>
+<td>45</td>
+<td>78</td>
+<td>45</td>
+<td>100</td>
+<td>56</td>
+<td>56</td>
+<td>100</td>
+<td>67</td>
+<td>43</td>
+<td>54</td>
+<td>34</td>
+<td>32</td>
+<td>32</td>
+<td>100</td>
+</tr>
+</tbody>
+</table></section></main>
+<footer>
+<h5>Elaborado por Karla Naybi Rosas Barrera</h5></footer>
+</body>
+</html>

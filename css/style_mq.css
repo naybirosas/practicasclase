@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body{
+    background-color: #000000;
+    color: #ED756E;
+}
+h1{
+    color: #AFAFF3;
+}
+@media(min-width:1024px){
+    body{
+        background-color: aquamarine;
+        color: cadetblue;
+    }
+}
+@media(min-width:320px)and(max-width:768){
+    body{
+        background-color: #1A627C;
+        color: aliceblue;
+    }
+    
+}
